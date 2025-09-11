@@ -6,7 +6,7 @@ const Hero = () => {
   
   const slides = [
     {
-      image: '/public/1.png',
+      image: 'https://ricelifefoodie.com/wp-content/uploads/2025/02/tapioca-pearls-with-blue-agve-syrup-sauce.jpg',
       title: 'Excellence in Service Delivery',
       subtitle: 'Empowering businesses with innovative solutions',
       description: 'Transform your business with our comprehensive suite of services designed for the modern marketplace.'
