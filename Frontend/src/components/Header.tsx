@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 md:px-16 lg:px-32 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src="/public/logo.png" alt="SAGOSERVE Logo" className="w-35 h-10" />
+            <img src="/logo.png" alt="SAGOSERVE Logo" className="w-35 h-10" />
           </div>
 
           {/* Desktop Navigation */}

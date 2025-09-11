@@ -83,7 +83,7 @@ const Contact = () => {
             {/* Map Placeholder */}
             <div className="mt-8">
               <img
-                src="/public/3.png"
+                src="/3.png"
                 alt="Office Location"
                 className="w-full h-64 object-cover rounded-2xl shadow-lg"
               />

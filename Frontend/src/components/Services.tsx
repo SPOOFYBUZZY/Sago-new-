@@ -60,7 +60,7 @@ const Services = () => {
               className="relative rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
             >
               <img
-                src={`/public/service-${index + 1}.jpg`}
+                src={`/service-${index + 1}.jpg`}
                 alt={service.title}
                 className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-300"
               />
