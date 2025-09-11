@@ -6,19 +6,19 @@ const Hero = () => {
   
   const slides = [
     {
-      image: '/public/1.png',
+      image: '/1.png',
       title: 'Excellence in Service Delivery',
       subtitle: 'Empowering businesses with innovative solutions',
       description: 'Transform your business with our comprehensive suite of services designed for the modern marketplace.'
     },
     {
-      image: '/public/3.png',
+      image: '/3.png',
       title: 'Member & Merchant Solutions',
       subtitle: 'Seamless registration and management',
       description: 'Join our growing community of members and merchants with our streamlined registration process.'
     },
     {
-      image: '/public/7.png',
+      image: '/7.png',
       title: 'Innovation Meets Excellence',
       subtitle: 'Leading the future of business services',
       description: 'Experience cutting-edge technology combined with personalized service delivery.'
