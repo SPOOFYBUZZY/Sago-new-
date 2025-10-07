@@ -80,12 +80,15 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* Map Placeholder */}
-            <div className="mt-8">
-              <img
-                src="/3.png"
-                alt="Office Location"
-                className="w-full h-64 object-cover rounded-2xl shadow-lg"
+            {/* Embedded Google Map (replace placeholder image) */}
+            <div className="mt-8 w-full rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                title="Sagoserve Location"
+                src="https://www.google.com/maps?q=Jagirammapalayam%20Omalur%20Main%20Road%20Salem%20636302&output=embed"
+                className="w-full h-64 border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              
               />
             </div>
           </div>

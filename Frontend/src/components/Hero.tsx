@@ -42,7 +42,8 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative w-full h-screen bg-cover bg-center animate-fade-in-up">
+  // hero uses calc to fill viewport minus header (64px) so header+hero fit exactly
+  <section id="hero" className="relative w-full bg-cover bg-center animate-fade-in-up" style={{ height: 'calc(100vh - 64px)' }}>
       {/* Background Slides */}
       {slides.map((slide, index) => (
         <div
@@ -61,7 +62,7 @@ const Hero = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
+  <div className="relative z-10 h-full flex items-center">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight animate-fade-in-up">
